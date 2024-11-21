@@ -9,14 +9,14 @@ def calculator():
     print("6. ยกกำลัง (**)")
 
     try:
-        # รับค่าจำนวนแรก
+
         num1 = float(input("ป้อนจำนวนที่ 1: "))
-        # รับค่าจำนวนที่สอง
+
         num2 = float(input("ป้อนจำนวนที่ 2: "))
-        # รับตัวเลือกการคำนวณ
+
         choice = input("เลือกการคำนวณ (1/2/3/4/5/6): ")
 
-        # ดำเนินการคำนวณตามตัวเลือก
+
         if choice == '1':
             print(f"ผลลัพธ์: {num1} + {num2} = {num1 + num2}")
         elif choice == '2':
@@ -38,5 +38,5 @@ def calculator():
     except ValueError:
         print("ข้อผิดพลาด: กรุณาป้อนตัวเลขที่ถูกต้อง")
 
-# เรียกใช้งานฟังก์ชัน
+
 calculator()
